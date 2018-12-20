@@ -1,4 +1,4 @@
-# What's That Smell????
+# What's That Smell?????
 This project, affectionately referred to as GARLC, is a demonstration of combining multiple [AWS](https://aws.amazon.com/) services.
 
 Project GARLC is made up of:
