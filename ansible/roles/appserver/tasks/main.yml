@@ -1,5 +1,5 @@
 ---
-# Configure Application Server
+# Configure Application Server well
 
 - name: Add index.html
   copy: src=index.html dest=/var/www/html mode=0644
