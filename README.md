@@ -1,5 +1,5 @@
 # What's That Smell?
-This project,,, affectionately referred to as GARLC, is a demonstration of combining multiple [AWS](https://aws.amazon.com/) services.
+This project, affectionately referred to as GARLC, is a demonstration of combining multiple [AWS](https://aws.amazon.com/) services.
 
 Project GARLC is made up of:
 * [Git](https://git-scm.com/) – for configuration storage and version control.  GitHub is used for the project currently but you could also use [AWS CodeCommit](https://aws.amazon.com/codecommit/).
