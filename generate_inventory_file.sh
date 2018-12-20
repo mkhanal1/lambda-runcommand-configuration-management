@@ -1,6 +1,6 @@
 #!/bin/bash
 # joshcb@amazon.comm
-# Generates an Ansible Inventory file from an EC2 Tag
+# Generates an Ansible Inventory file from a EC2 Tag
 # v1.1.0
 
 # Set environment for ec2 tools
