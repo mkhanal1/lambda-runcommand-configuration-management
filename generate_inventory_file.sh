@@ -1,5 +1,5 @@
 #!/bin/bash
-# joshcb@amazon.com
+# joshcb@amazon.comm
 # Generates an Ansible Inventory file from an EC2 Tag
 # v1.1.0
 
