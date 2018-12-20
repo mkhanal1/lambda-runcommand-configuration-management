@@ -10,7 +10,7 @@ Project GARLC is made up of:
 
 The general idea is that configuration management is now done in the same way we do continuous delivery of applications today.  What makes GARLC really exciting though is that there are no central control/orchestration servers to maintain and we no longer need SSH access to the instances to configure them.  There are two modes to Project GARLC:  continuous and bootstrap.
 
-## Continuous Mode
+## Continuous Mode:
 In this mode, configuration management of instances is done automatically, using the above technologies, as configurations are committed to version control.  Ansible is an agentless automation and management tool driven by the use of YAML based Playbooks. The idea is that you store idempotent Ansible Playbooks in GitHub and when changes are merged into the master branch CodePipeline picks them up.  
 
 CodePipeline is a continuous delivery service that goes through a series of stages.  In the case of GARLC we use two stages: a Source stage that checks GitHub for changes and an Invoke stage that triggers an AWS Lambda function.  This AWS Lambda function does several things, including invoking Run Command.
