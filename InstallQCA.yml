@@ -1,5 +1,5 @@
 - name: Install QCA Agent on Linux targets
-  hosts: all
+  hosts: 127.0.0.1
   gather_facts: true
   remote_user: "{{ ssh_user }}"
   tasks:
